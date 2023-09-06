@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class SampleController {
 	@GetMapping
 	public String sample(Model model) {
-		model.addAttribute("title", "SamplePage");
-		model.addAttribute("message", "これはサンプルページです。");
+		model.addAttribute("title", "SamplePage2");
+		model.addAttribute("message", "これはサンプルページです。2");
 		return "sample";
 	}
 }
